@@ -29,7 +29,7 @@ const App = (props) => {
         onClick={handleClickprev}
         disabled={val === 0 ? true : false}
       >
-        previous
+        Prev
       </button>
       <button
         data-testid="button-restart"
@@ -43,7 +43,7 @@ const App = (props) => {
         onClick={handleClickprenext}
         disabled={val === props.slides.length - 1 ? true : false}
       >
-        next
+        Next
       </button>
     </>
   );
